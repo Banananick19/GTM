@@ -8,7 +8,7 @@ using SharpDX.DirectInput;
 namespace ConsoleApp4
 {
     internal interface IObserver<T>
-    { 
+    {
        void Update(T updateData);
     }
 

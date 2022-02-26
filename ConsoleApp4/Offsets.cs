@@ -8,7 +8,7 @@ namespace ConsoleApp4
 {
     internal static class Offsets
     {
-        public static int GetOffset(int coords, int sensitivity = 10000) 
+        public static int GetOffset(int coords, int sensitivity = 8000) 
         {
             int offset = (coords - 32767) / sensitivity;
             offset = offset * Math.Abs(offset);

@@ -25,7 +25,6 @@ namespace ConsoleApp4
                     Thread.Sleep(2);
                     foreach (var state in UpdateData)
                     {
-                        Console.WriteLine(state);
                         if (state.Offset == JoystickOffset.RotationX)
                         {
                             offsetX = Offsets.GetOffset(state.Value);
